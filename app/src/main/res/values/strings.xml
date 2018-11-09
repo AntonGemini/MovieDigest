@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PopularMoviesS2</string>
+    <string name="log_tag">MOVIES_LOG</string>
+    <string name="menu_item_popular">Popular</string>
+    <string name="menu_item_rated">Top rated</string>
+    <string name="menu_item_favourite">Favourite</string>
+    <string name="sort_popular">popular</string>
+    <string name="sort_rated">top_rated</string>
+    <string name="sort_favourite">favourite</string>
+    <string name="sort_default">popular</string>
+    <string name="no_internet">No internet connection, only favourites available</string>
+    <string name="poster_description">Movie poster image</string>
+    <string name="review_movie_url">%1$s/reviews</string>
+    <string name="video_movie_url">%1$s/videos</string>
+    <string name="videoUrl">https://www.youtube.com/watch?v=%1$s</string>
+    <string name="read_more">Read more...</string>
+    <string name="user_reviews">User reviews</string>
+    <string name="mark_favourite">Mark as favourite image</string>
+    <string name="preview_image">Video preview image</string>
+    <string name="play_image">Play sign image</string>
+    <string name="sort_order">sort_order</string>
+    <string name="movie_parcel">movie_parcel</string>
+    <string name="video_thumbnail">http://img.youtube.com/vi/%1$s/0.jpg</string>
+    <string name="query_sort">query_sort</string>
+    <string name="medium_image_url">https://image.tmdb.org/t/p/w185%1$s</string>
+</resources>

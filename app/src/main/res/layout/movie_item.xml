@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <ImageView
+        tools:layout_height="150dp"
+        tools:layout_width="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:id="@+id/iv_movie_thumb"
+        android:contentDescription="@string/poster_description"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <ImageView
+        android:id="@+id/iv_favourite"
+        android:layout_width="@dimen/grid_fav_image_width"
+        android:layout_height="@dimen/grid_fav_image_width"
+        app:srcCompat="@drawable/ic_fav_unchecked"
+        android:layout_marginRight="@dimen/details_margin"
+        app:layout_constraintRight_toRightOf="@+id/iv_movie_thumb"
+        app:layout_constraintTop_toTopOf="@+id/iv_movie_thumb"
+        android:contentDescription="@string/mark_favourite"
+        android:layout_marginTop="@dimen/details_margin"
+        android:layout_marginEnd="@dimen/details_margin" />
+
+</android.support.constraint.ConstraintLayout>

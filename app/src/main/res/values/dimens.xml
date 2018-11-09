@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_title">42sp</dimen>
+    <dimen name="text_size_date">35sp</dimen>
+    <dimen name="text_size_detail">20sp</dimen>
+    <dimen name="text_size_plot">16sp</dimen>
+    <dimen name="details_padding">16dp</dimen>
+    <dimen name="details_poster">250dp</dimen>
+    <dimen name="details_fav_image">48dp</dimen>
+    <dimen name="details_margin">8dp</dimen>
+    <dimen name="details_margin_reviews">16dp</dimen>
+
+    <!---->
+    <dimen name="grid_fav_image_width">64dp</dimen>
+    <dimen name="preview_image_width">96dp</dimen>
+</resources>
